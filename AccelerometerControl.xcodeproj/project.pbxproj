@@ -8,26 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		3F2F7F23217F9919008E0A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F7F22217F9919008E0A28 /* AppDelegate.swift */; };
-		3F2F7F25217F9919008E0A28 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F2F7F24217F9919008E0A28 /* GameScene.sks */; };
-		3F2F7F27217F9919008E0A28 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F2F7F26217F9919008E0A28 /* Actions.sks */; };
 		3F2F7F29217F9919008E0A28 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F7F28217F9919008E0A28 /* GameScene.swift */; };
 		3F2F7F2B217F9919008E0A28 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F7F2A217F9919008E0A28 /* GameViewController.swift */; };
 		3F2F7F2E217F9919008E0A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2F7F2C217F9919008E0A28 /* Main.storyboard */; };
 		3F2F7F30217F991C008E0A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2F7F2F217F991C008E0A28 /* Assets.xcassets */; };
 		3F2F7F33217F991C008E0A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2F7F31217F991C008E0A28 /* LaunchScreen.storyboard */; };
+		3F2F7F3B217F9951008E0A28 /* HHSAccelerometerControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F7F3A217F9951008E0A28 /* HHSAccelerometerControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F2F7F1F217F9919008E0A28 /* AccelerometerControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccelerometerControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2F7F22217F9919008E0A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F2F7F24217F9919008E0A28 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		3F2F7F26217F9919008E0A28 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		3F2F7F28217F9919008E0A28 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3F2F7F2A217F9919008E0A28 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3F2F7F2D217F9919008E0A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F2F7F2F217F991C008E0A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F2F7F32217F991C008E0A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F2F7F34217F991C008E0A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2F7F3A217F9951008E0A28 /* HHSAccelerometerControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHSAccelerometerControl.swift; sourceTree = "<group>"; };
+		3FC41F6922D511CD00B22228 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +43,7 @@
 		3F2F7F16217F9919008E0A28 = {
 			isa = PBXGroup;
 			children = (
+				3FC41F6922D511CD00B22228 /* README.md */,
 				3F2F7F21217F9919008E0A28 /* AccelerometerControl */,
 				3F2F7F20217F9919008E0A28 /* Products */,
 			);
@@ -61,14 +61,13 @@
 			isa = PBXGroup;
 			children = (
 				3F2F7F22217F9919008E0A28 /* AppDelegate.swift */,
-				3F2F7F24217F9919008E0A28 /* GameScene.sks */,
-				3F2F7F26217F9919008E0A28 /* Actions.sks */,
 				3F2F7F28217F9919008E0A28 /* GameScene.swift */,
 				3F2F7F2A217F9919008E0A28 /* GameViewController.swift */,
 				3F2F7F2C217F9919008E0A28 /* Main.storyboard */,
 				3F2F7F2F217F991C008E0A28 /* Assets.xcassets */,
 				3F2F7F31217F991C008E0A28 /* LaunchScreen.storyboard */,
 				3F2F7F34217F991C008E0A28 /* Info.plist */,
+				3F2F7F3A217F9951008E0A28 /* HHSAccelerometerControl.swift */,
 			);
 			path = AccelerometerControl;
 			sourceTree = "<group>";
@@ -105,6 +104,7 @@
 				TargetAttributes = {
 					3F2F7F1E217F9919008E0A28 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -132,10 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F2F7F2E217F9919008E0A28 /* Main.storyboard in Resources */,
-				3F2F7F25217F9919008E0A28 /* GameScene.sks in Resources */,
 				3F2F7F30217F991C008E0A28 /* Assets.xcassets in Resources */,
 				3F2F7F33217F991C008E0A28 /* LaunchScreen.storyboard in Resources */,
-				3F2F7F27217F9919008E0A28 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +147,7 @@
 				3F2F7F29217F9919008E0A28 /* GameScene.swift in Sources */,
 				3F2F7F2B217F9919008E0A28 /* GameViewController.swift in Sources */,
 				3F2F7F23217F9919008E0A28 /* AppDelegate.swift in Sources */,
+				3F2F7F3B217F9951008E0A28 /* HHSAccelerometerControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +302,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cocoa-coding.de.AccelerometerControl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -321,7 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cocoa-coding.de.AccelerometerControl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
