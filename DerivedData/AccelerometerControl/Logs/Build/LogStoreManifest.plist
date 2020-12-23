@@ -3,8 +3,41 @@
 <plist version="1.0">
 <dict>
 	<key>logFormatVersion</key>
-	<integer>9</integer>
+	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>37556C27-9DCD-4C88-BFD3-768CAE882154</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>37556C27-9DCD-4C88-BFD3-768CAE882154.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AccelerometerControl project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AccelerometerControl</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean AccelerometerControl</string>
+			<key>timeStartedRecording</key>
+			<real>584390574.39724803</real>
+			<key>timeStoppedRecording</key>
+			<real>584390574.45833695</real>
+			<key>title</key>
+			<string>Clean AccelerometerControl</string>
+			<key>uniqueIdentifier</key>
+			<string>37556C27-9DCD-4C88-BFD3-768CAE882154</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
